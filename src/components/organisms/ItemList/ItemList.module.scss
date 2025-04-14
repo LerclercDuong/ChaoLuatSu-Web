@@ -1,0 +1,23 @@
+.itemList {
+    padding: 20px;
+  
+    .swiper {
+      width: 100%;
+  
+      .swiper-slide {
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+  
+  .swiper-container {
+    width: 600px;
+    height: 400px;
+  }
+  
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: #000;
+  }
+  

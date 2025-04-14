@@ -1,0 +1,138 @@
+.loginForm {
+    background: #fff; // Giữ nền trắng
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+    // width: 400px;
+    max-height: 95vh;
+    overflow-y: scroll;
+    .logo {
+        width: 140px;
+        margin-bottom: 16px;
+    }
+    &::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: transparent; // Không có viền hoặc nền
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: linear-gradient(135deg, #ff7e5f, #ff3d4f);
+        border-radius: 8px;
+    }
+
+    &::-webkit-scrollbar-thumb:hover {
+        background: linear-gradient(135deg, #ff6a42, #ff1e3c);
+    }
+
+    .MuiTypography-root {
+        color: linear-gradient(135deg, #ff7e5f, #ff3d4f);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .MuiButton-root {
+        text-transform: none;
+        border-radius: 8px;
+        font-weight: bold;
+        font-size: 16px;
+        height: 50px;
+        background: linear-gradient(135deg, #ff7e5f, #ff3d4f);
+        color: #fff;
+        transition: all 0.3s ease;
+
+        &.MuiButton-outlined {
+            background: transparent;
+            border: 2px solid;
+            border-image: linear-gradient(135deg, #ff7e5f, #ff3d4f) 1;
+            color: #ff3d4f;
+        }
+
+        &:hover {
+            opacity: 0.9;
+        }
+    }
+
+    .socialButtons {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin-bottom: 20px;
+    }
+
+    .MuiTextField-root {
+        background: rgba(0, 0, 0, 0.02);
+        border-radius: 8px;
+
+        input {
+            color: #333;
+        }
+
+        fieldset {
+            border-width: 2px;
+            border-style: solid;
+            border-image: linear-gradient(135deg, #ff7e5f, #ff3d4f) 1;
+        }
+    }
+
+    .MuiDivider-root {
+        margin: 16px 0;
+        background: linear-gradient(135deg, #ff7e5f, #ff3d4f);
+        height: 2px;
+    }
+
+    .MuiTypography-root {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .forgotPassword {
+        background: linear-gradient(135deg, #ff7e5f, #ff3d4f);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
+        cursor: pointer;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .methodButton {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 12px 16px;
+        border: 2px solid #ddd;
+        border-radius: 50px; // Bo tròn tối đa
+        background: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        color: #333;
+        cursor: pointer;
+        transition: all 0.3s ease;
+
+        &:hover {
+            border-color: #ff7e5f; // Khi hover viền có màu cam
+            background: rgba(255, 126, 95, 0.1);
+        }
+
+        i {
+            font-size: 18px;
+            margin-right: 12px;
+            color: #666; // Icon có màu xám
+        }
+
+
+    }
+
+    .signUpButton, .verifyButton {
+        background: linear-gradient(to right, #d32f2f, #ff7f50);
+        border-radius: 50px; // Bo tròn tối đa
+    }
+
+
+}

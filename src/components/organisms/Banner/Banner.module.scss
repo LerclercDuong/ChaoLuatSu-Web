@@ -1,0 +1,155 @@
+.banner {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background: linear-gradient(90deg, #d3d3d3 0%, #f0f0f0 100%);
+  border-top: 3px solid #a91b0d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.contentWrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  padding: 0 120px;
+}
+
+.active {
+  opacity: 1;
+}
+
+.leftColumn {
+  // flex: 1;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.rightColumn {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.mainHeading {
+  color: white;
+  font-size: 3.5rem !important;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 16px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.subHeading {
+  color: white;
+  font-size: 1.25rem !important;
+  font-weight: 400;
+  max-width: 400px;
+}
+
+.getStartedButton {
+  background-color: #f5a623 !important;
+  color: white !important;
+  text-transform: none !important;
+  font-weight: 600;
+  padding: 10px 24px !important;
+  border-radius: 4px !important;
+  margin-top: 20px;
+  width: 100%;
+
+  &:hover {
+    background-color: #e69520 !important;
+  }
+}
+
+.logoContainer {
+  text-align: center;
+  background: transparent;
+  margin: 20px 0;
+  border-radius: 50%;
+  width: 100%;
+  // border: 4px solid #a91b0d;
+}
+
+.logoText {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.dots {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  background: white;
+  border-radius: 50%;
+  opacity: 0.5;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.activeDot {
+  opacity: 1;
+}
+
+@media (max-width: 600px) {
+  .slide {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .leftColumn, .rightColumn {
+    flex: none;
+    align-items: center;
+  }
+
+  .mainHeading {
+    font-size: 2.5rem !important;
+  }
+
+  .subHeading {
+    font-size: 1rem !important;
+  }
+
+  .logoContainer {
+    margin-bottom: 16px;
+  }
+
+  .getStartedButton {
+    margin-top: 10px;
+  }
+}

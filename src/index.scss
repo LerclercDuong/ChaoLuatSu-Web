@@ -1,0 +1,28 @@
+/* Các kiểu chung cho body khi ở chế độ sáng/tối */
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+  background-color: #fff;
+  color: #333;
+
+  &.dark-mode {
+    background-color: #121212;
+    color: #f1f1f1;
+  }
+}
+
+/* Các phần tử sẽ tự động chuyển sang màu tối khi chế độ tối được kích hoạt */
+input,
+button {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button.dark-mode {
+  background-color: #555;
+  color: #fff;
+}
+
+input.dark-mode {
+  background-color: #555;
+  color: #fff;
+  border: 1px solid #777;
+}

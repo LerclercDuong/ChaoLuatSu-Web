@@ -1,0 +1,46 @@
+.profileContainer {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 6px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  
+    &:hover {
+      background: rgba(0, 0, 0, 0.05);
+    }
+  }
+  
+  .avatar {
+    width: 36px;
+    height: 36px;
+  }
+  
+  .userInfo {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  .userRole {
+    font-size: 12px;
+    font-weight: 500;
+    color: #777;
+  }
+  
+  .username {
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 120px; /* Giới hạn độ dài tên */
+  }
+  
+  .dropdownIcon {
+    font-size: 12px;
+    color: #666;
+  }
+  

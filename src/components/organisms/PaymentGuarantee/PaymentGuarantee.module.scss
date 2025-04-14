@@ -1,0 +1,70 @@
+.container {
+    // padding: 16px;
+    border-radius: 8px;
+    background: #fff;
+    // box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .underline {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #666;
+  }
+  
+  .paymentMethods {
+    display: flex;
+    gap: 8px;
+    margin-top: 8px;
+  
+    .chip {
+      padding: 8px 12px;
+      border-radius: 20px;
+      color: white;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 14px;
+      font-weight: bold;
+    }
+  
+    .visa {
+      background: #0071ce;
+    }
+  
+    .mastercard {
+      background: #eb001b;
+    }
+  
+    .paypal {
+      background: #003087;
+    }
+  }
+  
+  .returnPolicy {
+    margin-top: 12px;
+  
+    ul {
+      padding-left: 20px;
+      margin-top: 6px;
+    }
+  
+    li {
+      margin-bottom: 4px;
+    }
+  }
+  
+  .socialShare {
+    background: #7b3fbf;
+    padding: 10px;
+    border-radius: 6px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 12px;
+  }
+  

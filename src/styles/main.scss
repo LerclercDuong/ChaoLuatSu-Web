@@ -1,0 +1,11 @@
+@import 'variables';
+@import 'mixins';
+@import 'base';
+
+:root {
+    --primary-color: #{$primary-color};
+    --secondary-color: #{$secondary-color};
+    --error-color: #{$error-color};
+    --background-color: #{$background-color};
+    --text-primary: #{$text-primary};
+  }

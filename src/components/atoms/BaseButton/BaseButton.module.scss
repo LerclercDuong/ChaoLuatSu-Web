@@ -1,0 +1,18 @@
+.gradientButton {
+    background: linear-gradient(to right, #ff7f50, #d32f2f);
+    /* Cam sang đỏ */
+    border-radius: 8px;
+    /* Bo góc cho button */
+    color: #fff;
+    /* Màu chữ trắng */
+    padding: 10px 20px;
+    /* Khoảng cách bên trong button */
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+
+    &:hover {
+        background: linear-gradient(to right, #ff5733, #c62828);
+        /* Hiệu ứng hover */
+    }
+}

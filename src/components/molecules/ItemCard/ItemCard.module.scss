@@ -1,0 +1,56 @@
+.itemCard {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  height: 400px; /* Đặt chiều cao cố định cho toàn bộ card */
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+
+  .imageWrapper {
+    position: relative;
+    width: 100%;
+    height: 60%; /* Chiều cao cố định dựa trên tỷ lệ % của card */
+    overflow: hidden; /* Cắt bỏ phần dư của hình ảnh */
+
+    .image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* Giữ tỷ lệ hình ảnh, lấp đầy khung */
+    }
+
+    .badge {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      background: gold;
+      color: #fff;
+      padding: 5px 10px;
+      border-radius: 8px;
+      font-size: 0.8rem;
+      font-weight: bold;
+    }
+  }
+
+  .title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #333;
+  }
+
+  .description {
+    font-size: 0.9rem;
+    color: #666;
+    margin: 0 10px 15px; /* Giữ khoảng cách đều */
+    overflow: hidden; /* Cắt văn bản nếu quá dài */
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}

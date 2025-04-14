@@ -1,0 +1,137 @@
+[
+    {
+      "id": "1a2b3c4d-5678-90ab-cdef-1234567890ab",
+      "title": "Introduction to AI",
+      "description": "A comprehensive guide to Artificial Intelligence.",
+      "price": 9.99,
+      "thumbnailUrl": "https://example.com/thumbnails/ai_intro.jpg",
+      "slideFileUrl": "https://example.com/slides/ai_intro.pdf",
+      "totalPages": 25,
+      "isPublished": true,
+      "isFeatured": false,
+      "createdAt": "2025-02-11T10:00:00Z",
+      "updatedAt": "2025-02-11T12:00:00Z",
+      "createdBy": "admin",
+      "updatedBy": "admin",
+      "isDeleted": false,
+      "tags": "AI, Machine Learning, Deep Learning",
+      "rating": 4.5,
+      "numberOfRatings": 120,
+      "numberOfDownloads": 500,
+      "categories": [
+        {
+          "id": "c1",
+          "name": "Technology",
+          "description": "All slides related to tech.",
+          "slides": []
+        }
+      ],
+      "previewSlides": [
+        "https://png.pngtree.com/png-slide/20210531/ourmid/0-pngtree-celebrating-may-1-labor-day-activity-ppt-google-slides-and-powerpoint-template-background_5767.jpg",
+        "https://www.slideegg.com/image/catalog/704425-design-thinking-ppt-template-free-download.png"
+      ]
+    },
+    {
+      "id": "2b3c4d5e-6789-01ab-cdef-2345678901bc",
+      "title": "Mastering Web Development",
+      "description": "Learn full-stack web development step by step.",
+      "price": 14.99,
+      "thumbnailUrl": "https://example.com/thumbnails/web_dev.jpg",
+      "slideFileUrl": "https://example.com/slides/web_dev.pdf",
+      "totalPages": 30,
+      "isPublished": true,
+      "isFeatured": true,
+      "createdAt": "2025-01-20T08:30:00Z",
+      "updatedAt": "2025-02-01T15:45:00Z",
+      "createdBy": "john_doe",
+      "updatedBy": "jane_doe",
+      "isDeleted": false,
+      "tags": "Web Development, JavaScript, React, Backend",
+      "rating": 4.8,
+      "numberOfRatings": 250,
+      "numberOfDownloads": 700,
+      "categories": [
+        {
+          "id": "c2",
+          "name": "Programming",
+          "description": "Slides about coding and software development.",
+          "slides": []
+        }
+      ],
+      "previewSlides": [
+        "https://png.pngtree.com/png-slide/20210531/ourmid/0-pngtree-celebrating-may-1-labor-day-activity-ppt-google-slides-and-powerpoint-template-background_5767.jpg",
+        "https://www.slideegg.com/image/catalog/704425-design-thinking-ppt-template-free-download.png",
+        "https://png.pngtree.com/png-slide/20210531/ourmid/0-pngtree-celebrating-may-1-labor-day-activity-ppt-google-slides-and-powerpoint-template-background_5767.jpg",
+        "https://www.slideegg.com/image/catalog/704425-design-thinking-ppt-template-free-download.png"
+      ]
+    },
+    {
+      "id": "2b3c4d5e-6789-01ab-cdef-2345678901bc",
+      "title": "Mastering Web Development",
+      "description": "Learn full-stack web development step by step.",
+      "price": 14.99,
+      "thumbnailUrl": "https://example.com/thumbnails/web_dev.jpg",
+      "slideFileUrl": "https://example.com/slides/web_dev.pdf",
+      "totalPages": 30,
+      "isPublished": true,
+      "isFeatured": true,
+      "createdAt": "2025-01-20T08:30:00Z",
+      "updatedAt": "2025-02-01T15:45:00Z",
+      "createdBy": "john_doe",
+      "updatedBy": "jane_doe",
+      "isDeleted": false,
+      "tags": "Web Development, JavaScript, React, Backend",
+      "rating": 4.8,
+      "numberOfRatings": 250,
+      "numberOfDownloads": 700,
+      "categories": [
+        {
+          "id": "c2",
+          "name": "Programming",
+          "description": "Slides about coding and software development.",
+          "slides": []
+        }
+      ],
+      "previewSlides": [
+        "https://png.pngtree.com/png-slide/20210531/ourmid/0-pngtree-celebrating-may-1-labor-day-activity-ppt-google-slides-and-powerpoint-template-background_5767.jpg",
+        "https://www.slideegg.com/image/catalog/704425-design-thinking-ppt-template-free-download.png",
+        "https://png.pngtree.com/png-slide/20210531/ourmid/0-pngtree-celebrating-may-1-labor-day-activity-ppt-google-slides-and-powerpoint-template-background_5767.jpg",
+        "https://www.slideegg.com/image/catalog/704425-design-thinking-ppt-template-free-download.png"
+      ]
+    },
+    {
+      "id": "2b3c4d5e-6789-01ab-cdef-2345678901bc",
+      "title": "Mastering Web Development",
+      "description": "Learn full-stack web development step by step.",
+      "price": 14.99,
+      "thumbnailUrl": "https://example.com/thumbnails/web_dev.jpg",
+      "slideFileUrl": "https://example.com/slides/web_dev.pdf",
+      "totalPages": 30,
+      "isPublished": true,
+      "isFeatured": true,
+      "createdAt": "2025-01-20T08:30:00Z",
+      "updatedAt": "2025-02-01T15:45:00Z",
+      "createdBy": "john_doe",
+      "updatedBy": "jane_doe",
+      "isDeleted": false,
+      "tags": "Web Development, JavaScript, React, Backend",
+      "rating": 4.8,
+      "numberOfRatings": 250,
+      "numberOfDownloads": 700,
+      "categories": [
+        {
+          "id": "c2",
+          "name": "Programming",
+          "description": "Slides about coding and software development.",
+          "slides": []
+        }
+      ],
+      "previewSlides": [
+        "https://png.pngtree.com/png-slide/20210531/ourmid/0-pngtree-celebrating-may-1-labor-day-activity-ppt-google-slides-and-powerpoint-template-background_5767.jpg",
+        "https://www.slideegg.com/image/catalog/704425-design-thinking-ppt-template-free-download.png",
+        "https://png.pngtree.com/png-slide/20210531/ourmid/0-pngtree-celebrating-may-1-labor-day-activity-ppt-google-slides-and-powerpoint-template-background_5767.jpg",
+        "https://www.slideegg.com/image/catalog/704425-design-thinking-ppt-template-free-download.png"
+      ]
+    }
+  ]
+  

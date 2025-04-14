@@ -1,0 +1,97 @@
+.header {
+    background-color: #ffffff !important; // Red color from Rocket Lawyer header
+    border-top: 3px solid #f5c518; // Yellow border from Rocket Lawyer header
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+}
+
+.logo {
+    width: 200px;
+}
+
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+}
+
+.logo {
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    font-size: 1.5rem;
+
+    &:hover {
+        opacity: 0.9;
+    }
+}
+
+.navLinks {
+    display: flex;
+    gap: 16px;
+}
+
+.navItem {
+    color: rgb(0, 0, 0) !important;
+    text-transform: none !important;
+    font-weight: 500;
+
+    &:hover {
+        background-color: rgba(255, 255, 255, 0.1) !important;
+    }
+}
+
+.newBadge {
+    background-color: #00c4b4;
+    color: rgb(0, 0, 0);
+    font-size: 0.7rem;
+    padding: 2px 6px;
+    border-radius: 10px;
+    margin-left: 8px;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.loginButton {
+    color: #d32f2f;
+    font-size: 1rem;
+    font-weight: 500;
+    background: none;
+    border: none;
+    &:hover {
+        color: #d32f2f;
+    }
+}
+
+.signUpButton {
+    background: #d32f2f;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: 500;
+    border: none;
+    transition: background 0.3s ease;
+
+    &:hover {
+        background: #d32f2f;
+    }
+}
+
+.menuButton {
+    display: none !important;
+
+    @media (max-width: 900px) {
+        display: block !important;
+    }
+}
+
+@media (max-width: 900px) {
+    .navLinks {
+        display: none;
+    }
+}
