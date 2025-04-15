@@ -76,6 +76,31 @@ const Header: React.FC = () => {
             {item.new && <span className={styles.newBadge}>NEW</span>}
           </ListItem>
         ))}
+        <ListItem>
+        <React.Fragment>
+            {isAuthenticated ? (
+              <>
+                <IconButton onClick={handleMenuOpen}>
+                  <Avatar src={user?.profilePicture} alt={user?.email} />
+                </IconButton>
+                <Menu
+                  anchorEl={anchorEl}
+                  open={Boolean(anchorEl)}
+                  onClose={handleMenuClose}
+                >
+                  <MenuItem onClick={() => navigate('/profile')}>Profile</MenuItem>
+                  <MenuItem onClick={() => navigate('/settings')}>Settings</MenuItem>
+                  <MenuItem onClick={() => navigate('/logout')}>Logout</MenuItem>
+                </Menu>
+              </>
+            ) : (
+              <Box sx={{ display: 'flex', gap: 2 }}>
+                <button className={styles.loginButton} onClick={() => dispatch(setLoginModalOpenAction(true))}>Login</button>          
+                <button className={styles.signUpButton} onClick={() => dispatch(setSignUpModalOpenAction(true))}>Sign Up</button>
+              </Box>
+            )}
+          </React.Fragment>
+        </ListItem>
       </List>
     </Box>
   );
@@ -128,11 +153,9 @@ const Header: React.FC = () => {
                 </Menu>
               </>
             ) : (
-              <Box sx={{display: 'flex', gap: 2}}>
-                <button className={styles.loginButton} onClick={() => dispatch(setLoginModalOpenAction(true))}>Login</button>
-                <LoginForm />
+              <Box sx={{ display: 'flex', gap: 2 }}>
+                <button className={styles.loginButton} onClick={() => dispatch(setLoginModalOpenAction(true))}>Login</button>            
                 <button className={styles.signUpButton} onClick={() => dispatch(setSignUpModalOpenAction(true))}>Sign Up</button>
-                <SignUpForm />
               </Box>
             )}
           </React.Fragment>
@@ -151,6 +174,8 @@ const Header: React.FC = () => {
         }
 
       </Toolbar>
+      <LoginForm />
+      <SignUpForm />
     </AppBar>
   );
 };

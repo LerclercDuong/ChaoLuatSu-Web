@@ -78,7 +78,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  max-width: 600px;
+  // max-width: 600px;
 }
 
 .phone {
@@ -126,7 +126,6 @@
 
 @media (max-width: 900px) {
   .phone {
-    width: 150px;
     height: 300px;
   }
 

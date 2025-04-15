@@ -59,7 +59,9 @@
 .category {
   flex: 1;
   text-align: left;
-  max-width: 300px;
+  min-width: 300px;
+  margin: 10px 0;
+
 }
 
 .categoryHeader {
